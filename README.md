@@ -41,9 +41,10 @@ string.length; // => 209
 
 ```
 
-
 ##Contents
 + [Usage](#usage)
++ [Inteface](#interface)
+
 
 ##Usage
 
@@ -67,3 +68,6 @@ hist.each(function(item, freq) {
 });
 
 ```
+
+##Interface
+
