@@ -23,7 +23,9 @@ hist.frequency('c'); // => 3
 
 ```javascript
 // Specify a string.
-var string = 'We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.';
+var string = 'We hold these truths to be self-evident, that all men are created equal, \
+that they are endowed by their Creator with certain unalienable Rights, that among \
+these are Life, Liberty and the pursuit of Happiness.';
 
 // Create a histogram.
 var hist = containers.histogram()
