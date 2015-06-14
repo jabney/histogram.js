@@ -231,7 +231,7 @@ containers.histogram = function histogram() {
     },
 
     // Return item/frequency pairs sorted low-to-high or custom.
-    sortedPairs: function(sort) {
+    sortedPairs: function sortedPairs(sort) {
         var pairs = this.pairs();
         if (sort !== undefined)
             // Custom sort.
